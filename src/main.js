@@ -1,6 +1,11 @@
-import './assets/main.css'
+import './assets/main.css';
+import { createApp } from 'vue';
+import { router } from './router';
+import ui from '@nuxt/ui/vue-plugin';
+import App from './App.vue';
+const app = createApp(App);
 
-import { createApp } from 'vue'
-import App from './App.vue'
+app.use(router);
+app.use(ui);
 
-createApp(App).mount('#app')
+app.mount('#app');
