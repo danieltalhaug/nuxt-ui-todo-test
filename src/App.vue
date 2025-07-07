@@ -1,12 +1,12 @@
 <script setup>
-import AppWrapper from './components/AppWrapper.vue';
+import TheWrapper from './components/TheWrapper.vue';
 </script>
 
 <template>
 	<UApp>
-		<AppWrapper>
+		<TheWrapper>
 			<RouterView />
-		</AppWrapper>
+		</TheWrapper>
 	</UApp>
 </template>
 

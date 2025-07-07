@@ -8,9 +8,10 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AppWrapper: typeof import('./src/components/AppWrapper.vue')['default']
+    AppWrapper: typeof import('./src/components/TheWrapper.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TheWrapper: typeof import('./src/components/TheWrapper.vue')['default']
     TodoList: typeof import('./src/views/TodoLists.vue')['default']
     TodoLists: typeof import('./src/views/TodoLists.vue')['default']
     UAccordion: typeof import('./node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue')['default']
