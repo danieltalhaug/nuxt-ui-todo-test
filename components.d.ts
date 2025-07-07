@@ -11,8 +11,11 @@ declare module 'vue' {
     AppWrapper: typeof import('./src/components/AppWrapper.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TodoList: typeof import('./src/components/TodoList.vue')['default']
+    TodoList: typeof import('./src/views/TodoLists.vue')['default']
+    TodoLists: typeof import('./src/views/TodoLists.vue')['default']
+    UAccordion: typeof import('./node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue')['default']
     UApp: typeof import('./node_modules/@nuxt/ui/dist/runtime/components/App.vue')['default']
     UButton: typeof import('./node_modules/@nuxt/ui/dist/runtime/components/Button.vue')['default']
+    UTree: typeof import('./node_modules/@nuxt/ui/dist/runtime/components/Tree.vue')['default']
   }
 }
